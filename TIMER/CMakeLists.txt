@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.13)
+include(pico_sdk_import.cmake)
+project(TIMER C CXX ASM)
+pico_sdk_init()
+add_executable(app_main app_main.c)
+pico_add_extra_outputs(app_main)
+target_link_libraries(app_main pico_stdlib)

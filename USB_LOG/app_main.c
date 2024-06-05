@@ -15,9 +15,9 @@ int main()
 
     
 
-    while (!stdio_usb_connected()) {
-        sleep_ms(100);
-    }
+    // while (!stdio_usb_connected()) {
+    //     sleep_ms(100);
+    // }
     while (1)
     {
         printf("Hello, world!\n");

@@ -4,6 +4,8 @@ VSC https://deepbluembedded.com/raspberry-pi-pico-w-sdk-c-programming-rp2040/#go
 ```
 1. Mở Pico Powershell
 2. Cd tới Project dir
-3. cmake ..
-4. cmake --build .
+3. mkdir build
+4. cd build 
+5. cmake ..
+6. cmake --build .
 ```

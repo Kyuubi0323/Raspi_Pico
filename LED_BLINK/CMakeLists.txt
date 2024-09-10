@@ -1,5 +1,9 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.18)
 include(pico_sdk_import.cmake)
+
+
+
+
 project(LED_BLINK C CXX ASM)
 pico_sdk_init()
 add_executable(main main.c)
